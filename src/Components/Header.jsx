@@ -5,7 +5,7 @@ const Header = ({children, theme, setTheme}) => {
         <header>
             <span className="logo">
                 <img src={logo} alt="" />
-                <span>TaskFlow</span>
+                <span>Taskmate</span>
             </span>
             <span className="themeSelector">
                 <span onClick={() => setTheme("light")} className={ theme === "light" ? "light activeTheme" : "light"}></span>
